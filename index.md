@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## Chào mừng đến với Khái niệm cơ bản của Lập trình Thi đấu (updated 2020-07-27)
 
-You can use the [editor on GitHub](https://github.com/nvatuan/elementary-cp-concepts/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Lập trình Thi đấu chỉ là lập trình để giải quyết các vấn đề trong đời sống bị biến tấu thành một bộ môn thể thao. Tuy là một môn thể thao, rèn luyện sẽ có ích ít nhiều cho chặn đường IT của bạn.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Mục lục
 
-### Markdown
+## Nội dung
+Các nội dung đã được mình cố gắng tách biệt để chúng độc lập lẫn nhau, nhằm giúp bạn tập trung vào phần mà bạn muốn tập trung hơn. Tuy nhiên, một vài nội dung sẽ hiệu quả hơn nếu chúng có sự kết hợp với nhau, sự kết hợp này nếu có thì tôi sẽ nhắc đến trong phần đọc.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Nghệ thuật Lập trình thi đấu
+  1. Cách thức chấm điểm
+  2. ..
 
-```markdown
-Syntax highlighted code block
+# Cơ bản về Data Structure:
+  1. Arrays (Mảng) (☆)
+  2. Partial Sum (mảng Tổng cộng dồn) (☆☆)
+  3. Cấu trúc Dữ liệu truy vấn (cho phép lấy Max/Min nhanh) (☆☆☆)
 
-# Header 1
-## Header 2
-### Header 3
+# Cơ bản về Algorithms:
+  1. Greedy (Tham lam) (☆☆)
+  2. Tìm kiếm nhị phân (Binary Search):
+    - Tìm một giá trị chính xác (☆)
+    - Tìm một giá trị gần đó    (☆☆)
+    - Tìm trên miền kết quả     (☆☆☆)
+      - Nhận dạng một bài toán giải được bằng phương pháp này
+      - Đừng cuống khi lặp vô hạn
+  3. Two pointer (☆?)
 
-- Bulleted
-- List
+# Cơ bản về Toán (Tin):
+  1. Số học
+    - Phép Chia lấy Dư (☆)
+    - GCD trá hình (☆)
+    - (Gần như) Mọi thứ về Kiểm tra tính nguyên tố (☆☆)
+  2. Đếm số cách...
+    - Các cách tính và lưu kết quả Tổ hợp (☆☆)
+    - ...
+  3. Hình học
+    - Pythagoras
+    - Lấy căn bậc 2 hay không lấy căn bậc 2 (☆)
+    - Khoảng cách Euler và Khoảng cách Manhattan (☆)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Thông tin không liên quan đến nội dung của project
+# About us
+  1. Local University group
+  2. Bản thân tôi
 
-[Link](url) and ![Image](src)
-```
+# Mục đích của Project
+  1. Mục đích ngắn hạn
+  2. Mục đích dài hạn
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nvatuan/elementary-cp-concepts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Lời cảm ơn
