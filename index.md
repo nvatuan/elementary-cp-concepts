@@ -19,6 +19,7 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
 ### Cơ bản về Algorithms:
   1. Greedy (Tham lam) (☆☆)
   2. Tìm kiếm nhị phân (Binary Search):
+  
     - Tìm một giá trị chính xác (☆)
     - Tìm một giá trị gần đó    (☆☆)
     - Tìm trên miền kết quả     (☆☆☆)
@@ -28,12 +29,15 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
 
 ### Cơ bản về Toán (Tin):
   1. Số học:
+    
     - Phép Chia lấy Dư (☆)
     - GCD trá hình (☆)
     - (Gần như) Mọi thứ về Kiểm tra tính nguyên tố (☆☆)
   2. Đếm số cách..:
+  
     - Các cách tính và lưu kết quả Tổ hợp (☆☆)
   3. Hình học:
+  
     - Pythagoras
     - Lấy căn bậc 2 hay không lấy căn bậc 2 (☆)
     - Khoảng cách Euler và Khoảng cách Manhattan (☆)
