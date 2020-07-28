@@ -1,4 +1,4 @@
-# Chào mừng đến với Khái niệm cơ bản của Lập trình Thi đấu (updated 2020-07-27)
+# Các Khái niệm cơ bản của Lập trình Thi đấu (updated 2020-07-27)
 
 Lập trình Thi đấu chỉ là lập trình để giải quyết các vấn đề trong đời sống bị biến tấu thành một bộ môn thể thao. Tuy là một môn thể thao, rèn luyện sẽ có ích ít nhiều cho chặn đường IT của bạn.
 
