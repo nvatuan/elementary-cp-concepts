@@ -42,4 +42,5 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
   1. Mục đích ngắn hạn
   2. Mục đích dài hạn
 
+
 ## Lời cảm ơn
