@@ -93,9 +93,14 @@ Nếu code của bạn cho ra kết quả sai, trình chấm sẽ thông báo Wr
 2. Thuật toán Đúng nhưng do lý do lỗi tràn số, giả dụ như biến `int` chỉ chứa được đến 10^9 phải chứa một số là 10^10.
 3. Một vài lý do rất hãm là dòng cuối cùng của bạn không có ký tự `\n` hay in thừa ký tự `\n`. Điều này còn tùy hệ thống, khi xảy ra thì nó sẽ luôn xảy ra.
 
-Hiện nay, các hệ thống chấm đang dần chuyển qua sử dụng `Checker`, nó là một phần mềm kiểm tra tính đúng của chương trình bạn, động lực cho việc này là do một bài toán có nhiều lời giải và người ra đề không muốn giới hạn bạn trong một khuôn khổ, điều này sẽ giới hạn sự sáng tạo trong cách viết lời giải.
+Hiện nay, các hệ thống chấm đang dần chuyển qua sử dụng `Checker`, nó là một chương trình kiểm tra tính đúng của chương trình bạn, động lực cho việc này là do một bài toán có nhiều lời giải và người ra đề không muốn giới hạn bạn trong một khuôn khổ, điều này sẽ giới hạn sự sáng tạo trong cách viết lời giải.
 
-# Các tài liệu khác dài nhưng hay:
+## V. Bộ nhớ sử dụng
+Bộ nhớ sử dụng là một trong những thông số không quan trọng, tuy nhiên, nếu chương trình của bạn sử dụng một Cấu trúc dữ liệu ứng dụng cấp phát động (ví dụ như cây nhị phân, ...) bạn có thể vô tình sử dụng quá nhiều bộ nhớ và bị lỗi Memory Limit Exceeded (MLE). Tuy nhiên, điều này rất hiếm khi xảy ra, vì máy tính hiện đại có rất nhiều bộ nhớ.
+
+Bộ nhớ thông thường được cho phép thường xấp xỉ `10^8` số `int 32-bit`.
+
+# Các tài liệu đọc thêm, kinh nghiệm của các người đi trước:
 [@VNOI: Tìm ra Lời giải](https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md)
 
 [@VNOI: Cách tiếp cận một vấn đề 1](https://vnoi.info/wiki/translate/topcoder/Planning-an-Approach-to-a-Topcoder-Problem-Part-1.md)

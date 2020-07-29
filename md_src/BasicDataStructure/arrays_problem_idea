@@ -1,0 +1,10 @@
+- rotation
+- access to some set of elements everytime
+- arrays are pointers
+- arrays as hash tables
+
+- There is a list of unknown distinct N integers, 
+given a matrix shows the relation between integer I and integer J,
+output the index of the list as if the list is in sorted order.
+
+- 

@@ -12,16 +12,17 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
 
 ### Cơ bản về Data Structure:
 1. [Arrays (Mảng) (☆)](md_src/BasicDataStructure/Arrays.md)
-2. [Partial Sum (mảng Tổng cộng dồn) (☆☆)](md_src/BasicDataStructure/PartialSum.md)
-3. [Cấu trúc Dữ liệu truy vấn (cho phép lấy Max/Min nhanh) (☆☆☆)](md_src/BasicDataStructure/ThoseOfWhichAllowsFastMinMaxSingleElementQuery.md)
+2. [Prefix Sum (Tổng cộng dồn) (☆☆)](md_src/BasicDataStructure/PartialSum.md)
+3. [(ỨNG DỤNG THƯ VIỆN) Cấu trúc Dữ liệu truy vấn (cho phép lấy Max/Min nhanh) (☆☆☆)](md_src/BasicDataStructure/ThoseOfWhichAllowsFastMinMaxSingleElementQuery.md)
 
 ### Cơ bản về Algorithms:
-1. [Greedy (Tham lam) (☆☆)](md_src/BasicAlgorithm/Greedy.md)
-2. [Tìm kiếm nhị phân (Binary Search)](md_src/BasicAlgorithm/BinarySearch.md)
-    - Tìm một giá trị chính xác (☆)
-    - Tìm một giá trị gần đó    (☆☆)
+1. [(ỨNG DỤNG THƯ VIỆN) Sắp xếp (Sorting)(☆)](md_src/BasicAlgorithm/Sorting.md)
+2. [Tham lam (Greedy) (☆☆)](md_src/BasicAlgorithm/Greedy.md)
+3. [Tìm kiếm nhị phân (Binary Search)](md_src/BasicAlgorithm/BinarySearch.md)
+    - (ỨNG DỤNG THƯ VIỆN) Tìm một giá trị chính xác (☆)
+    - (ỨNG DỤNG THƯ VIỆN) Tìm một giá trị gần đó    (☆☆)
     - Tìm trên miền kết quả     (☆☆☆)
-3. [Two pointers (☆?)](md_src/BasicAlgorithm/TwoPointers)
+4. [Two pointers (☆?)](md_src/BasicAlgorithm/TwoPointers)
 
 ### Cơ bản về Toán (Tin):
 1. Số học:
