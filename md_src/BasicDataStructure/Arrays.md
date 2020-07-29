@@ -49,7 +49,7 @@ Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mả
 </details>
 
 ### 2. Sử dụng chỉ số i như là đại diện cho một đối tượng 
-Xét một phần tử mảng, ví dụ như `A[i]`, `A[i]` thật ra chứa đến 2 nguồn thông tin, đó là chỉ số `i` và phần tử `A[i ]`. Việc nhận ra điều này sẽ cho phép bạn có ý tưởng sáng tạo hơn. 
+Xét một phần tử mảng, ví dụ như `A[i]`, `A[i]` thật ra chứa đến 2 nguồn thông tin, đó là chỉ số `i` và phần tử `A[i]`. Việc nhận ra điều này sẽ cho phép bạn có ý tưởng sáng tạo hơn. 
 
 #### Mảng 1 chiều:
 -   <details>

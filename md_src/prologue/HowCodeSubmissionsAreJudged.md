@@ -65,7 +65,7 @@ Một cách khác để ước lượng tốc độ chương trình của bạn 
 Bạn sẽ tính N = **tích các phần lồng nhau trong code của bạn**, bỏ các dấu `+`, `-` đi.
 
 Giả sử, xét đoạn code sau:
-```Cpp
+```cpp
 int result = 0;
 for (int i = 0; i < n; i++)             // chạy N lần
     for (int j = 0; j < m; j++) {       // - mỗi N lần, chạy M lần           

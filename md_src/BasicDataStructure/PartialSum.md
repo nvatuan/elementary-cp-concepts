@@ -40,7 +40,7 @@ Ta muốn biết tổng của `S = A[4] + A[4] + .. + A[15] + A[16]`. Chúng ta 
       = A[4] + A[4] + .. + A[15] + A[16] + A[0] + A[1] + A[2] + A[3] - A[0] - A[1] - A[2] - A[3]
       = A[4] + A[4] + .. + A[15] + A[16] + (A[0] + A[1] + A[2] + A[3]) - (A[0] + A[1] + A[2] + A[3])
       = (A[0] + A[1] + A[2] + A[3]) + (A[4] + .. + A[15] + A[16]) - (A[0] + A[1] + A[2] + A[3])
-      = (A[0] + A[1] + A[2] + ...  + + A[15] + A[16]) - (A[0] + A[1] + A[2] + A[3])
+      = (A[0] + A[1] + A[2] + ...  + A[15] + A[16]) - (A[0] + A[1] + A[2] + A[3])
       = prefixSum[16] - prefixSum[3]
 
 Từ ví dụ trên, ta có thể đúc kết được công thức như sau:
@@ -59,14 +59,14 @@ Ví dụ cụ thể:
     bằng với 6 - 1 = 5, lưu ý ở prefixSum[] chúng ta phải lùi vị trí L lui một vị trí.
 
 ### Lưu ý
-Vậy với `A[L] + A[L+1] + ... + A[R-1] + A[R] = prefixSum[R] - prefixSum[L-1]`, nếu `L = 0` thì sao? Lúc này, chúng ta cần truy cập phần tử `L-1` nên khiến giá trị `i` của ta là âm, có thể xảy ra lỗi thời gian chạy. Cách mà tôi hay làm là bắt đầu đếm số trong chương trình của mình từ `1`. Lúc này, `L` có giá trị nhỏ nhất là `1`, khiến `L-1 == 0`, không xảy ra lỗi nữa.
+Vậy với `A[L] + A[L+1] + ... + A[R-1] + A[R] == prefixSum[R] - prefixSum[L-1]`, nếu `L = 0` thì sao? Lúc này, chúng ta cần truy cập phần tử `L-1` nên khiến giá trị `i` của ta là âm, có thể xảy ra lỗi thời gian chạy. Cách mà tôi hay làm là bắt đầu đếm số trong chương trình của mình từ `1`. Lúc này, `L` có giá trị nhỏ nhất là `1`, khiến `L-1 == 0`, không xảy ra lỗi nữa.
 
 ### Cách xây dựng
 Chúng ta có thể xây dựng tổng cộng dồn một cách nhanh chóng, bởi vì `prefixSum[x] = prefixSum[x-1] + A[x]`, ta xây dựng nó trong độ phức tạp `O(N)`.
 
 Giả sử ta cần đọc một danh sách `A[]` có `100` phần tử và xây dựng mảng tổng cộng dồn `prefixSum[]` cho nó:
 
-```Cpp
+```cpp
 int A[101];
 for (int i = 1; i <= 100; i++) cin >> A[i];
 
