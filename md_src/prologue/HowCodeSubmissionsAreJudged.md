@@ -91,7 +91,8 @@ Trên thực tế, việc xác định này khó hơn nhiều, vì không phải
 Nếu code của bạn cho ra kết quả sai, trình chấm sẽ thông báo Wrong Answer (hay WA). Lý do cho ra Wrong Answer:
 1. Thuật toán Sai thật.
 2. Thuật toán Đúng nhưng do lý do lỗi tràn số, giả dụ như biến `int` chỉ chứa được đến 10^9 phải chứa một số là 10^10.
-3. Một vài lý do rất hãm là dòng cuối cùng của bạn không có ký tự `\n` hay in thừa ký tự `\n`. Điều này còn tùy hệ thống, khi xảy ra thì nó sẽ luôn xảy ra.
+3. Do hành vi không được định nghĩa (Undefined Behaviour). Có thể trình IDE của bạn tự động khởi tạo giá trị mặc định cho một biến là `0`, nhưng điều này có thể sẽ khác với các hệ thống khác. Tiêu biểu là hành động tạo một biến `int` trong hàm `main` trong `C/C++`. Giá trị này là một số ngẫu nhiên, nhưng có thể nó mang giá trị `0` trong hệ thống của bạn.
+4. Một vài lý do rất hãm là dòng cuối cùng của bạn không có ký tự `\n`. Điều này còn tùy hệ thống, khi xảy ra thì nó sẽ luôn xảy ra, nghĩa là nếu bạn sai ngay Test đầu tiên thì khả năng cao là bạn nên thử in thêm ký tự `\n`.
 
 Hiện nay, các hệ thống chấm đang dần chuyển qua sử dụng `Checker`, nó là một chương trình kiểm tra tính đúng của chương trình bạn, động lực cho việc này là do một bài toán có nhiều lời giải và người ra đề không muốn giới hạn bạn trong một khuôn khổ, điều này sẽ giới hạn sự sáng tạo trong cách viết lời giải.
 
