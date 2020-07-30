@@ -35,8 +35,8 @@ int main() {
     for (int i = 0; i < 5; i++) cout << v[i] << ' '; cout << '\n';
 }
 ```
-
 </details>
+
 
 ### Ngữ pháp
 
@@ -84,8 +84,8 @@ int main() {
     // In ra: 5 4 3 2 1
 }
 ```
-
 </details>
+
 
 Trên là một ví dụ cho việc sort bằng hàm cụ thể của người dùng. Hàm `compare()` được sử dụng sẽ nhận 2 giá trị, trả về `true` nếu giá trị đầu tiên lớn hơn giá trị thứ hai. Bạn hãy để ý rằng phần tử đầu tiên trong mảng sau khi được sort, sẽ luôn trả kết quả `true` với các phần tử khác trong mảng nếu được gọi bằng hàm `compare()`. Điều này là vì tính chất bắc cầu của điều kiện.
 
@@ -245,6 +245,7 @@ public class a {
     }
 }
 ```
+
 </details>
 
 Tóm tắt lại, các việc bạn cần làm để Sort một cấu trúc dữ liệu trong Collections theo một trật tự cụ thể (sử dụng Comparator) là:
@@ -289,6 +290,7 @@ public class Main {
     }
 }
 ```
+
 </details>
 
 Một lưu ý cuối cùng là `comparator` của bạn phải đảm bảo tính chất bắc cầu, nếu không `Java` sẽ báo lỗi.
