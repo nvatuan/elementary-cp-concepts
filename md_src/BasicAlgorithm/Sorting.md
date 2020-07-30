@@ -10,10 +10,6 @@ Thông thường, thuật toán sắp xếp sẽ đi kèm với một thuật to
 
 Hàm sắp xếp của `C++` nằm trong namespace `std` và trong file header `<algorithm>`. Tên đầy đủ của nó là `std::sort`. Mặc định, nó sẽ sắp xếp các số theo thứ tự tăng dần về giá trị, hay tăng dần về sự xuất hiện trong từ điển nếu so sánh chuỗi ký tự.
 
-<details>
-
-<summary> Ví dụ </summary>
-
 ```cpp
 #include<iostream>
 #include<algorithm>
@@ -35,7 +31,6 @@ int main() {
     for (int i = 0; i < 5; i++) cout << v[i] << ' '; cout << '\n';
 }
 ```
-</details>
 
 
 ### Ngữ pháp
@@ -56,9 +51,7 @@ a[]  =  { 3, 2, 5, 1, 4, 7, 6 }
 #### Sort theo thứ tự nhất định (thông số thứ ba)
 `std::sort()` của `C++` còn có một biến thể, giúp nhận một thông số thứ 3 là một đối tượng "function", ở đây, chúng ta sẽ chỉ nghiên cứu về việc sử dụng function để sort:
 
-<details>
-
-<summary> Ví dụ cho sort theo thứ tự giảm dần </summary>
+Ví dụ cho sort theo thứ tự giảm dần
 
 ```cpp
 #include<iostream>
@@ -84,16 +77,11 @@ int main() {
     // In ra: 5 4 3 2 1
 }
 ```
-</details>
 
 
 Trên là một ví dụ cho việc sort bằng hàm cụ thể của người dùng. Hàm `compare()` được sử dụng sẽ nhận 2 giá trị, trả về `true` nếu giá trị đầu tiên lớn hơn giá trị thứ hai. Bạn hãy để ý rằng phần tử đầu tiên trong mảng sau khi được sort, sẽ luôn trả kết quả `true` với các phần tử khác trong mảng nếu được gọi bằng hàm `compare()`. Điều này là vì tính chất bắc cầu của điều kiện.
 
-Một ví dụ khác:
-
-<details>
-
-<summary> Ví dụ cho sort theo giá trị tuyệt đối </summary>
+Ví dụ cho sort theo giá trị tuyệt đối:
 
 ```cpp
 #include<iostream>
@@ -120,17 +108,13 @@ int main() {
 }
 ```
 
-</details>
-
 Ở ví dụ trên, hàm sort ở giữa sẽ vẫn giữ thứ tự giá trị tăng dần, trong khi hàm sort cuối cùng sẽ trả về thứ tự tăng dần theo giá trị tuyệt đối.
 
 ## Java
 Trong `Java` nói thẳng ra là phức tạp hơn C++. Để sort một mảng thuần, bạn sử dụng `Arrays.sort()`. Nhưng đối với các mảng động như `ArrayList`, .. hay là các cấu trúc dữ liệu mà bạn sử dụng trong thư viện `Collections` của `Java`, bạn phải sử dụng `Collection.sort()` thì mới có thể trực tiếp sort chúng, không thì bạn phải convert chúng sang mảng thuần.
 
 ### Sort mảng thuần theo thứ tự mặc định
-<details>
-
-<summary> Ví dụ </summary>
+Ví dụ:
 
 ```java
 import java.util.Arrays;
@@ -146,14 +130,10 @@ public class Main {
 }
 ```
 
-</details>
-
 ### Sort nửa đoạn [L, R) trong mảng thuần theo thứ tự mặc định
 Hàm `Arrays.sort()` của `Java` có một biến thể là nhận thêm hai thông số là hai index `L` và `R` đại diện cho half-range `[L; R)` mà bạn muốn sort.
 
-<details>
-
-<summary> Ví dụ </summary>
+Ví dụ:
 
 ```java
 import java.util.Arrays;
@@ -171,15 +151,10 @@ public class Main {
 }
 ```
 
-</details>
-
-
 ### Sort một cấu trúc dữ liệu trong Collections
 Trong `Java` còn có `Collections.sort()` hỗ trợ sort các cấu trúc dữ liệu trong thư viện `Collection`. Cụ thể, hàm này sẽ nhận một đối tượng có `implement interface List` ví dụ như: `ArrayList`, `LinkedList`, `Vector`, ... và sort chúng.
 
-<details>
-
-<summary> Ví dụ với ArrayList </summary>
+Ví dụ với ArrayList:
 
 ```java
 import java.util.ArrayList;
@@ -200,7 +175,6 @@ public class Main {
 }
 ```
 
-</details>
 
 Về các cấu trúc dữ liệu khác, các bạn có thể search thêm, nếu bao gồm cả chúng thì tài liệu này sẽ rất dài ;v.
 
@@ -212,9 +186,7 @@ Ví dụ dưới đây tạo một `class Compare` và `implements Comparator`, 
 
 Hàm `compare` sẽ nhận hai đối tượng có kiểu tương đồng với kiểu mà chúng ta khai báo với `Comparator<>`. Hàm này trả về `1, 0` hoặc `-1` ứng với `a > b, a == b, a < b`.
 
-<details>
-
-<summary> Ví dụ với ArrayList, sắp xếp theo thứ tự giảm dần </summary>
+Ví dụ với ArrayList, sắp xếp theo thứ tự giảm dần:
 
 ```java
 import java.util.ArrayList;
@@ -246,17 +218,13 @@ public class a {
 }
 ```
 
-</details>
 
 Tóm tắt lại, các việc bạn cần làm để Sort một cấu trúc dữ liệu trong Collections theo một trật tự cụ thể (sử dụng Comparator) là:
 1. Tạo một `class` mà `implements interface Comparator`. Nếu có thể hãy viết luôn kiểu dữ liệu mà `Comparator<>` sẽ so sánh, nếu để trống thì kiểu đó được mặc định là kiểu `Object` rồi để sử dụng bạn sẽ phải ép kiểu trong hàm `compare()`.
 2. Viết đè định nghĩa hàm `compare(a, b)`. Hàm này trả về kiểu `int`, `-1` hoặc `1` nếu `a` khác `b` theo thứ tự bạn muốn. Còn lại thì trả về `0`.
 3. Gọi `Collections.sort()`, thông số một là cấu trúc dữ liệu kiểu `implements List`, thông số thứ hai là **một đối tượng implements interface Comparator** mà bạn đã viết.
 
-<details>
-
-<summary> Ví dụ với ArrayList, sắp xếp theo giá trị tuyệt đối </summary>
-
+Ví dụ với ArrayList, sắp xếp theo giá trị tuyệt đối:
 ```java
 import java.util.ArrayList;
 import java.util.Collections;
@@ -290,8 +258,6 @@ public class Main {
     }
 }
 ```
-
-</details>
 
 Một lưu ý cuối cùng là `comparator` của bạn phải đảm bảo tính chất bắc cầu, nếu không `Java` sẽ báo lỗi.
 
