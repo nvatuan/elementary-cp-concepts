@@ -37,60 +37,37 @@ Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mả
 ### 1. Xử lý thông tin chứa trong mảng
 Đây là công dụng chủ yếu của mảng, bạn lưu trữ nó, rồi xử lý thông tin đó. Phần lớn các yêu cầu trong mục này có thứ tự truy cập các phần tử mảng luôn cố định (từ trái qua phải, hoặc từ phải qua trái, ...).
 
-<details>
-    <summary> Mảng 1D Áp dụng:  </summary>
+* Mảng 1D Áp dụng:
 
-A - In ngược mảng
+    A - In ngược mảng
+    B - Tìm "password"
+    D - Cắt cỏ kiểu Máy đánh bạc
+    E - Subarray có tổng lớn nhất
+    F - Truy vấn Tổng 1D Easy
 
-B - Tìm "password"
+* Mảng 2D Áp dụng:
 
-D - Cắt cỏ kiểu Máy đánh bạc
+    A - Tic Tac Toe
+    B - Chữ thập thăng
+    C - Room Rental
+    D - Rào hố đất
+    E - Truy vấn Tổng 2D Easy
 
-E - Subarray có tổng lớn nhất
-
-F - Truy vấn Tổng 1D Easy
-
-</details>
-
-<details>
-    <summary> Mảng 2D Áp dụng:  </summary>
-
-A - Tic Tac Toe
-
-B - Chữ thập thăng
-
-C - Room Rental
-
-D - Rào hố đất
-
-E - Truy vấn Tổng 2D Easy
-
-</details>
 
 ### 2. Sử dụng chỉ số i như là đại diện cho một đối tượng 
 Xét một phần tử mảng, ví dụ như `A[i]`, `A[i]` thật ra chứa đến 2 nguồn thông tin, đó là chỉ số `i` và phần tử `A[i]`. Việc nhận ra điều này sẽ cho phép bạn có ý tưởng sáng tạo hơn. 
 
-<details>
-    <summary> Mảng 1D Áp dụng:  </summary>
+* Mảng 1D Áp dụng:
 
-C - Vắng mặt
+    C - Vắng mặt
+    G - Dọn dẹp đường ray
+    H - Dưới quyền điều hành
 
-G - Dọn dẹp đường ray
+* Mảng 2D Áp dụng:
 
-H - Dưới quyền điều hành
-
-</details>
-
-<details>
-    <summary> Mảng 2D Áp dụng:  </summary>
-
-F - Forking Knight move
-
-G - Sàn nhảy
-
-H - Khôi phục thứ tự
-
-</details>
+    F - Forking Knight move
+    G - Sàn nhảy
+    H - Khôi phục thứ tự
 
 Việc sử dụng chỉ số `i` như đại diện cho một đối tượng này dẫn đến sự xuất hiện của cấu trúc dữ liệu Hash Tables và ý tưởng biểu diễn một đối tượng bất kỳ bằng một dãy số nguyên, nếu bạn muốn tìm hiểu thêm.
 
