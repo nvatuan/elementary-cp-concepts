@@ -1,3 +1,5 @@
+[Về trang chính](../../index.md)
+
 # List lời giải cho Arrays 2D
 
 * [D - Rào hố đất](D_fencing-holes.md)

@@ -1,3 +1,5 @@
+[Về trang chính](../../index.md)
+
 # List lời giải cho Arrays 1D
 
 * [C - Vắng mặt](C_absence.md)

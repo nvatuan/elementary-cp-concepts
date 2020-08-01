@@ -40,22 +40,30 @@ Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mả
 <details>
     <summary> Mảng 1D Áp dụng:  </summary>
 
-    A - In ngược mảng
-    B - Tìm "password"
-    D - Cắt cỏ kiểu Máy đánh bạc
-    E - Subarray có tổng lớn nhất
-    F - Truy vấn Tổng 1D Easy
+A - In ngược mảng
+
+B - Tìm "password"
+
+D - Cắt cỏ kiểu Máy đánh bạc
+
+E - Subarray có tổng lớn nhất
+
+F - Truy vấn Tổng 1D Easy
 
 </details>
 
 <details>
     <summary> Mảng 2D Áp dụng:  </summary>
 
-    A - Tic Tac Toe
-    B - Chữ thập thăng
-    C - Room Rental
-    D - Rào hố đất
-    E - Truy vấn Tổng 2D Easy
+A - Tic Tac Toe
+
+B - Chữ thập thăng
+
+C - Room Rental
+
+D - Rào hố đất
+
+E - Truy vấn Tổng 2D Easy
 
 </details>
 
@@ -65,18 +73,22 @@ Xét một phần tử mảng, ví dụ như `A[i]`, `A[i]` thật ra chứa đ�
 <details>
     <summary> Mảng 1D Áp dụng:  </summary>
 
-    C - Vắng mặt
-    G - Dọn dẹp đường ray
-    H - Dưới quyền điều hành
+C - Vắng mặt
+
+G - Dọn dẹp đường ray
+
+H - Dưới quyền điều hành
 
 </details>
 
 <details>
     <summary> Mảng 2D Áp dụng:  </summary>
 
-    F - Forking Knight move
-    G - Sàn nhảy
-    H - Khôi phục thứ tự
+F - Forking Knight move
+
+G - Sàn nhảy
+
+H - Khôi phục thứ tự
 
 </details>
 
