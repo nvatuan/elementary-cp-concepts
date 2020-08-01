@@ -24,166 +24,55 @@ Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mả
 
 ## Các cách sử dụng thông thường
 
+[Link Contest Practice Arrays 1D](https://codeforces.com/contests/289360) | [Link Lời giải Arrays 1D](../Solution/arrays_1d/index.md)
+
+[Link Contest Practice Arrays 2D](https://codeforces.com/contests/289569) | [Link Lời giải Arrays 2D](../Solution/arrays_2d/index.md)
+
 ### 1. Xử lý thông tin chứa trong mảng
 Đây là công dụng chủ yếu của mảng, bạn lưu trữ nó, rồi xử lý thông tin đó. Phần lớn các yêu cầu trong mục này có thứ tự truy cập các phần tử mảng luôn cố định (từ trái qua phải, hoặc từ phải qua trái, ...).
 
 <details>
     <summary> Mảng 1D Áp dụng:  </summary>
 
-- [In ngược mảng]()
-- Táo
-- Tìm "password"
-- Cắt cỏ kiểu Máy đánh bạc
-- Subarray có tổng lớn nhất
-- Truy vấn Tổng 1D Easy
+    A - In ngược mảng
+    B - Tìm "password"
+    D - Cắt cỏ kiểu Máy đánh bạc
+    E - Subarray có tổng lớn nhất
+    F - Truy vấn Tổng 1D Easy
+
 </details>
 
 <details>
     <summary> Mảng 2D Áp dụng:  </summary>
 
-- Tic Tac Toe
-- Chữ thập thăng
-- Room Rental
-- Rào hố đất
-- Truy vấn Tổng 2D Easy
+    A - Tic Tac Toe
+    B - Chữ thập thăng
+    C - Room Rental
+    D - Rào hố đất
+    E - Truy vấn Tổng 2D Easy
+
 </details>
 
 ### 2. Sử dụng chỉ số i như là đại diện cho một đối tượng 
 Xét một phần tử mảng, ví dụ như `A[i]`, `A[i]` thật ra chứa đến 2 nguồn thông tin, đó là chỉ số `i` và phần tử `A[i]`. Việc nhận ra điều này sẽ cho phép bạn có ý tưởng sáng tạo hơn. 
 
-#### Mảng 1 chiều:
--   <details>
-    <summary> Bài "Vắng mặt" </summary>
-    <details>
-    <summary> Hint giải </summary>
-    Khai báo một mảng `diemDanh[]` và sử dụng chỉ số `i` như là mã số học sinh.
-    </details>
-    <details>
-    <summary> Lời giải </summary>
+<details>
+    <summary> Mảng 1D Áp dụng:  </summary>
 
-    Ban đầu, mảng `diemDanh[]` của chúng ta sẽ chứa toàn giá trị `false`, vì lớp học vừa mở cửa và không có ai trong đó cả. Sau đó, chúng ta sẽ lần lượt cho từng học sinh vào và đánh dấu là học sinh đó có mặt. Sau đó chỉ cần duyệt qua tất cả mã số học sinh, in ra các mã số học sinh mà có `diemDanh[i] == false`.
+    C - Vắng mặt
+    G - Dọn dẹp đường ray
+    H - Dưới quyền điều hành
 
-    Giả sử như lớp chúng ta chỉ có 10 hoạc sinh và có các học sinh như sau đi học 11, 14, 15. Gán `diemDanh[3] = true, diemDanh[4] = true, diemDanh[7] = true;`. Sau đó, chúng ta duyệt lần lượt mã số học sinh từ 1 cho đến 10, nếu `diemDanh[mã_số_học_sinh] == false` tức là học sinh đó không có mặt.
-                
-    </details>
-    <details>
-    <summary> Code giải </summary>
+</details>
 
-    [Source](https://pbs.twimg.com/media/Ec5DcA8X0AY2l6Z?format=jpg&name=large)
-    </details>
-    </details>
+<details>
+    <summary> Mảng 2D Áp dụng:  </summary>
 
--   <details>
-    <summary> Bài "Dưới quyền điều hành" </summary>
+    F - Forking Knight move
+    G - Sàn nhảy
+    H - Khôi phục thứ tự
 
-    <details>
-    <summary> Hint giải </summary>
-
-    Khai báo một mảng `boss[]` mà `boss[i]` là mã của nhân viên là cấp trên trực tiếp điều hành nhân viên có mã số là chỉ số `i`.
-    Nếu như một nhân viên không có cấp trên thì giá trị `boss[]` của họ là một giá trị đặc biệt (ví dụ như -1). 
-    Nếu gặp giá trị này, chúng ta sẽ `return NO`, vì chúng ta biết là họ không có cấp trên.
-
-    Cấp trên của cấp trên của cấp trên của ... của `x` lúc này sẽ là: `boss[boss[boss[...boss[x]...]]]`.
-    </details>
-
-    <details>
-    <summary> Lời giải </summary>
-
-    Để thuận tiện cho việc cài đặt thuật toán (hay là việc code), chúng ta khai báo một biến `sep` sẽ bằng `boss[x]`.
-    Sau đó, sẽ chỉ có thể có hai trường hợp:
-    - `sep` vẫn có cấp trên, tức là `boss[sep] != -1` (-1 là giá trị đặc biệt chúng ta gán từ trước)
-    - `sep` không có cấp trên, tức là `boss[sep] == -1`
-
-    Chúng ta sẽ liên tục đi lên chuỗi cấp trên của cấp trên đó, liên tục check nếu `sep` có bằng `y` không, nếu có chúng ta sẽ in ra `YES` và dừng truy vấn lên nữa.
-    Nếu không phải, chúng ta chỉ dừng khi `sep` không còn cấp trên, lúc này chúng ta sẽ in ra `NO`.
-    </details>
-
-    <details>
-    <summary> Code giải </summary>
-
-    [Source](https://pbs.twimg.com/media/Ec5DcA8X0AY2l6Z?format=jpg&name=large)
-    </details>
-
-    </details>
-
--   <details>
-    <summary> Bài "Nhiều mắc xích" </summary>
-
-    <details>
-    <summary> Hint giải </summary>
-
-    lorem
-
-    </details>
-    <details>
-    <summary> Lời giải </summary>
-
-    lorem.
-
-    </details>
-    <details>
-    <summary> Code giải </summary>
-    
-    lorem.
-
-    </details>
-
-    </details>
-
-
-
-
-
-
-
-#### Mảng 2 chiều:
--   <details>
-    <summary> Bài "Sàn nhảy" </summary>
-
-    <details>
-    <summary> Hint giải </summary>
-
-    lorem
-
-    </details>
-    <details>
-    <summary> Lời giải </summary>
-
-    lorem.
-
-    </details>
-    <details>
-    <summary> Code giải </summary>
-    
-    lorem.
-
-    </details>
-
-    </details>
-
--   <details>
-    <summary> Bài "Khôi phục thứ tự" </summary>
-
-    <details>
-    <summary> Hint giải </summary>
-
-    lorem
-
-    </details>
-    <details>
-    <summary> Lời giải </summary>
-
-    lorem.
-
-    </details>
-    <details>
-    <summary> Code giải </summary>
-    
-    lorem.
-
-    </details>
-
-    </details>
+</details>
 
 Việc sử dụng chỉ số `i` như đại diện cho một đối tượng này dẫn đến sự xuất hiện của cấu trúc dữ liệu Hash Tables và ý tưởng biểu diễn một đối tượng bất kỳ bằng một dãy số nguyên, nếu bạn muốn tìm hiểu thêm.
 
