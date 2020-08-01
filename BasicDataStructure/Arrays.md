@@ -37,21 +37,21 @@ Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mả
 ### 1. Xử lý thông tin chứa trong mảng
 Đây là công dụng chủ yếu của mảng, bạn lưu trữ nó, rồi xử lý thông tin đó. Phần lớn các yêu cầu trong mục này có thứ tự truy cập các phần tử mảng luôn cố định (từ trái qua phải, hoặc từ phải qua trái, ...).
 
-* Mảng 1D Áp dụng:
+* Mảng 1D:
 
-    A - In ngược mảng
-    B - Tìm "password"
-    D - Cắt cỏ kiểu Máy đánh bạc
-    E - Subarray có tổng lớn nhất
-    F - Truy vấn Tổng 1D Easy
+    - A - In ngược mảng
+    - B - Tìm "password"
+    - D - Cắt cỏ kiểu Máy đánh bạc
+    - E - Subarray có tổng lớn nhất
+    - F - Truy vấn Tổng 1D Easy
 
 * Mảng 2D Áp dụng:
 
-    A - Tic Tac Toe
-    B - Chữ thập thăng
-    C - Room Rental
-    D - Rào hố đất
-    E - Truy vấn Tổng 2D Easy
+    - A - Tic Tac Toe
+    - B - Chữ thập thăng
+    - C - Room Rental
+    - D - Rào hố đất
+    - E - Truy vấn Tổng 2D Easy
 
 
 ### 2. Sử dụng chỉ số i như là đại diện cho một đối tượng 
@@ -59,15 +59,15 @@ Xét một phần tử mảng, ví dụ như `A[i]`, `A[i]` thật ra chứa đ�
 
 * Mảng 1D Áp dụng:
 
-    C - Vắng mặt
-    G - Dọn dẹp đường ray
-    H - Dưới quyền điều hành
+    - C - Vắng mặt
+    - G - Dọn dẹp đường ray
+    - H - Dưới quyền điều hành
 
 * Mảng 2D Áp dụng:
 
-    F - Forking Knight move
-    G - Sàn nhảy
-    H - Khôi phục thứ tự
+    - F - Forking Knight move
+    - G - Sàn nhảy
+    - H - Khôi phục thứ tự
 
 Việc sử dụng chỉ số `i` như đại diện cho một đối tượng này dẫn đến sự xuất hiện của cấu trúc dữ liệu Hash Tables và ý tưởng biểu diễn một đối tượng bất kỳ bằng một dãy số nguyên, nếu bạn muốn tìm hiểu thêm.
 
