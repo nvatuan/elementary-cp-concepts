@@ -1,3 +1,5 @@
+[Về trang chính](../../index.md)
+
 # Tổng cộng dồn (Prefix Sum)
 
 ## Table of Content

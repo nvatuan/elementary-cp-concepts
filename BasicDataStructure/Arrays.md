@@ -1,3 +1,5 @@
+[Về trang chính](../../index.md)
+
 # Mảng
 
 Mảng là một danh sách các phần tử, được tổ chức liên tiếp nhau trên bộ nhớ. Mảng là một cấu trúc dữ liệu đơn giản nhất và rất hiệu quả. Giả sử bạn cần một đoạn mã để tính giá trị trung bình của một vài con số. Mảng là sự lựa chọn tuyệt vời để giữ các giá trị bởi yêu cầu bài toán không đòi hỏi một thứ tự lưu trữ cụ thể và các phép tính toán cũng không đòi hỏi gì khác ngoài việc duyệt qua toàn bộ các phần tử.
@@ -24,9 +26,13 @@ Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mả
 
 ## Các cách sử dụng thông thường
 
-[Link Contest Practice Arrays 1D](https://codeforces.com/contests/289360) | [Link Lời giải Arrays 1D](../Solution/arrays_1d/index.md)
+[Link Contest Practice Arrays 1D](https://codeforces.com/contests/289360)
 
-[Link Contest Practice Arrays 2D](https://codeforces.com/contests/289569) | [Link Lời giải Arrays 2D](../Solution/arrays_2d/index.md)
+- [Link Lời giải Arrays 1D](../Solution/arrays_1d/index.md)
+
+[Link Contest Practice Arrays 2D](https://codeforces.com/contests/289569) 
+
+- [Link Lời giải Arrays 2D](../Solution/arrays_2d/index.md)
 
 ### 1. Xử lý thông tin chứa trong mảng
 Đây là công dụng chủ yếu của mảng, bạn lưu trữ nó, rồi xử lý thông tin đó. Phần lớn các yêu cầu trong mục này có thứ tự truy cập các phần tử mảng luôn cố định (từ trái qua phải, hoặc từ phải qua trái, ...).

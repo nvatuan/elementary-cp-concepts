@@ -1,3 +1,5 @@
+[Về trang chính](../../index.md)
+
 # (Ứng dụng thư viện) Sắp xếp
 
 Thuật toán Sắp xếp là một trong những thuật toán quan trọng nhất của IT, bởi vì nhờ chúng mà chúng ta mới có thể trật tự hóa dữ liệu vào, rồi từ đó, các thuật toán xử lý khác sẽ chạy hiệu quả hơn. Thuật toán Sắp xếp này rất quan trọng nên mọi ngôn ngữ lập trình thời nay đều đã có sẵn một hàm riêng dùng để sắp xếp.

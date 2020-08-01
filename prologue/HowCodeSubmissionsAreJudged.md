@@ -1,3 +1,5 @@
+[Về trang chính](../../index.md)
+
 # Cách thức mà bài Code được chấm điểm
 
 Một chương trình/code hợp lệ chỉ khi nó: biên dịch thành công, chạy và thoát thành công, chạy trong thời gian quy định và cho ra được kết quả đúng với mọi tập dữ liệu vào. Điều này luôn đúng với mọi code project, kể cả việc bạn đang làm việc cho người khác hay làm việc một mình. 
