@@ -2,6 +2,7 @@
 
 # List lời giải cho Arrays 1D
 
+* [B - Tìm "password"](B_find-password.md)
 * [C - Vắng mặt](C_absence.md)
 * [D - Cắt cỏ Las Vegas](D_cut-grass-las-vegas.md)
 * [E - Tổng mảng con Lớn nhất](E_max-subarray-sum.md)
