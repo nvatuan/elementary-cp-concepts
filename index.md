@@ -18,7 +18,7 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
 
 
 ### Cơ bản về Algorithms:
-1. [(ỨNG DỤNG THƯ VIỆN) Sắp xếp (Sorting)(☆)](BasicAlgorithm/Sorting.md) (Không có bài tập)
+1. [(ỨNG DỤNG THƯ VIỆN) Sắp xếp (Sorting)(☆)](BasicAlgorithm/Sorting.md) (Lý thuyết)
 2. [Tham lam (Greedy) (☆☆)](BasicAlgorithm/Greedy.md) (CHƯA XONG)
 3. [Tìm kiếm nhị phân (Binary Search)](BasicAlgorithm/BinarySearch.md) (CHƯA XONG)
     - (ỨNG DỤNG THƯ VIỆN) Tìm một giá trị chính xác (☆)

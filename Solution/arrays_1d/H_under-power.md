@@ -81,7 +81,5 @@ int main() {
     input();
     process();
     output();
-    for (int i = 1; i <= n; i++)
-        cout << boss[i] << ' ';
 }
 ```
