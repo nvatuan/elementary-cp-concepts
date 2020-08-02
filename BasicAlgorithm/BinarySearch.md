@@ -1,2 +1,2 @@
-[Về trang chính](../../index.md)
+[<< Về trang chính](../index.md)
 

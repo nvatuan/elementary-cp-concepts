@@ -1,4 +1,4 @@
-# Các Khái niệm cơ bản của Lập trình Thi đấu (updated 2020-08-01)
+# Các Khái niệm cơ bản của Lập trình Thi đấu (updated 2020-08-02)
 
 Lập trình Thi đấu chỉ là lập trình để giải quyết các vấn đề trong đời sống bị biến tấu thành một bộ môn thể thao. Tuy là một môn thể thao, rèn luyện sẽ có ích ít nhiều cho chặn đường IT của bạn.
 
@@ -12,14 +12,14 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
 
 
 ### Cơ bản về Data Structure:
-1. [Arrays (Mảng) (☆)](BasicDataStructure/Arrays.md) (2 Contest bài tập)
-2. [Prefix Sum (Tổng cộng dồn) (☆☆)](BasicDataStructure/PrefixSum.md) (CHƯA CÓ CONTEST)
+1. [Arrays (Mảng) (☆)](BasicDataStructure/Arrays.md) (Xong + 2 Contest)
+2. [Prefix Sum (Tổng cộng dồn) (☆☆)](BasicDataStructure/PrefixSum.md) (Xong + CHƯA CÓ CONTEST)
 3. [(ỨNG DỤNG THƯ VIỆN) Cấu trúc Dữ liệu truy vấn (cho phép lấy Max/Min nhanh) (☆☆☆)](BasicDataStructure/FastMinMaxSingleElementQuery.md) (CHƯA XONG)
 
 
 ### Cơ bản về Algorithms:
 1. [(ỨNG DỤNG THƯ VIỆN) Sắp xếp (Sorting)(☆)](BasicAlgorithm/Sorting.md) (Lý thuyết)
-2. [Tham lam (Greedy) (☆☆)](BasicAlgorithm/Greedy.md) (CHƯA XONG)
+2. [Tham lam (Greedy) (☆☆)](BasicAlgorithm/Greedy.md) (Xong + 1 Contest Bài tập)
 3. [Tìm kiếm nhị phân (Binary Search)](BasicAlgorithm/BinarySearch.md) (CHƯA XONG)
     - (ỨNG DỤNG THƯ VIỆN) Tìm một giá trị chính xác (☆)
     - (ỨNG DỤNG THƯ VIỆN) Tìm một giá trị gần đó    (☆☆)
