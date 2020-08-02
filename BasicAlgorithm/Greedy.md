@@ -16,9 +16,7 @@
 
 Một thuật toán được gọi là Tham lam nếu như nó chọn lựa chọn lục bộ tối ưu nhất có thể của hiện tại và hy vọng sẽ đạt được lựa chọn tối ưu toàn cảnh.
 
-Giả sử như bạn đang rãnh rỗi và muốn làm `K` công việc bán thời gian, lúc này đang có `N` công việc đang tuyển với các mức lương khác nhau. Không kể về các điều kiện khác, nếu như bạn muốn kiếm được nhiều tiền nhanh nhất thì bạn phải lựa chọn các công việc theo thứ tự lương cao xuống lương thấp. Theo ngôn ngữ của toán học là có một chuỗi số gồm `N` phần tử, hãy chọn `K` phần tử sao cho có tổng là lớn nhất.
-
-Đây là một trong những trường hợp mà Thuật toán Tham lam cho kết quả chính xác và Thuật toán chạy rất nhanh. Tuy nhiên, trong rất nhiều trường hợp khác, Thuật toán Tham lam cho kết quả sai.
+Giả sử như bạn đang rãnh rỗi và muốn làm việc bán thời gian, lúc này đang có `N` công việc đang tuyển với các mức lương khác nhau. Nếu như tiêu chí của bạn là muốn kiếm được nhiều tiền thì bạn phải lựa chọn các công việc theo thứ tự lương cao xuống lương thấp. Quyết định chọn lựa gì đó theo một tiêu chí nhất định và mong rằng nó sẽ tối ưu về sau đó chính là Giải thuật Tham lam. Đây là một trong những trường hợp mà Thuật toán Tham lam cho kết quả chính xác và Thuật toán sẽ chạy rất nhanh. Tuy nhiên, trong rất nhiều trường hợp khác, Thuật toán Tham lam cho kết quả sai.
 
 Để một bài toán có thể giải bằng thuật toán Tham lam, nó phải có hai tính chất:
 1. Cấu trúc con tối ưu
@@ -31,7 +29,7 @@ Bài viết chỉ có mục đích cho bạn làm quen với tư duy Tham lam v�
 
 Thật chất, Tham lam không phải là Thuật toán, nói đúng hơn nó là một cách giải quyết một vấn đề. Tham lam không có hình dáng, công thức hay một quy trình cụ thể và vì thế mà những bài toán giải bằng Tham lam sẽ không có một dạng cụ thể. Nên mình nghĩ cách tốt nhất là đi qua một vài ví dụ để bạn có một cái nhìn toàn vẹn hơn.
 
-#### 1. Gàu nước
+### 1. Gàu nước
 
 > Phong muốn múc `L` lít nước ra những cái gàu nước, biết rằng Phong có hai loại gàu gồm loại 5 lít và loại 2 lít, mỗi loại có vô số số lượng. Hãy đếm số lượng gàu ít nhất mà anh ta cần để múc hết `L` lít nước đó ra.
 
@@ -41,7 +39,7 @@ Với bài toán trên, vì chúng ta đang tối thiểu hóa số lượng gà
 
 Bài toán trên cũng có thể khái quát hóa thành Phong có `N` loại gàu với mỗi loại là vô số số lượng, và cũng tương tự ta chỉ lựa chọn loại gàu có thể chứa được nhiều nhất. Luôn chọn loại gàu chứa được nhiều nhất là Tiêu chí Tham lam của chúng ta, và với tiêu chí này, chúng ta có thể giải quyết được bài toán trên.
 
-#### 2. Tổng lớn nhất của một chuỗi số
+### 2. Tổng lớn nhất của một chuỗi số
 
 Bây giờ chúng ta xem xét một bài toán hơi khác so với bài toán trên:
 
@@ -57,7 +55,7 @@ Bài toán trên cũng có thể khái quát hóa hơn nữa:
 
 Tại đây, ta biết chắc rằng chọn `K` phần tử lớn nhất trong dãy số sẽ luôn đúng, và cách làm này có độ phức tạp là `O(K)` (không tính tới việc sắp xếp chuỗi số), thay vì chúng ta phải xét mọi trường hợp có thể là `tổ hợp K của N` là độ phức tạp giai thừa `O(N!)`.
 
-#### 3. Đổi tiền
+### 3. Đổi tiền
 
 Bài toán như sau:
 
@@ -74,7 +72,7 @@ Tại sao luôn lựa chọn loại tiền xu có giá trị cao nhất sẽ t�
 Tuy nhiên, Giải thuật Tham lam này **không đúng** với mọi loại tiền xu. Giả sử có một hệ thống tiền tệ sử dụng các loại tiền xu `{4, 3, 1}` thì để tạo `V = 6`, theo giải thuật tham lam chúng ta sẽ chọn `{4, 1, 1}` trong khi đáp án tối ưu là sử dụng 2 đồng `{3}`. Để giải quyết dạng khái quát hơn của bài Đổi tiền chúng ta cần đến **Giải thuật Quy Hoạch Động** và nó nằm ngoài các topics của chúng ta, các bạn có thể đọc thêm.
 
 
-#### 4. Sắp xếp công việc
+### 4. Sắp xếp công việc
 
 Tóm tắt bài toán như sau:
 
@@ -84,8 +82,11 @@ Bài toán này cực kỳ nổi tiếng và đã có rất nhiều tài liệu 
 
 Quay lại hiện tại, Tiêu chí tham lam chính xác đó là luôn chọn công việc mà có thời điểm kết thúc sớm nhất. Sau khi công việc bạn đã chọn kết thúc thì lại chọn một công việc khác diễn ra sau đó cùng với tiêu chí ban nãy. Chọn cho đến khi hết công việc để chọn, bạn đã có cho mình một lịch trình bận rộn và rất nhiều công việc.
 
-Ví dụ:
-![Ví dụ](greedy_activity_select.png)
+Ví dụ minh họa:
+
+<p align="center">
+<img src="./greedy_activity_select.png">
+</p>
 
 Với dòng thời gian và thứ tự của các công việc diễn ra như trên, các cách chọn tối ưu gồm `{job1, job4, job5}` và `{job2, job4, job5}`, cả hai đều có `3` công việc và đây là số công việc nhiều nhất bạn có thể đạt được.
 
