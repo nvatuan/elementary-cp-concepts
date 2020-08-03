@@ -1,5 +1,10 @@
 [<< Về trang chính](../index.md)
 
+* [Khai báo](#khai-báo)
+    * [Mảng tĩnh](#mảng-tĩnh)
+    * [Mảng động](#mảng-động)
+* [Ứng dụng + Link contest và bài giải](#ứng-dụng)
+
 # Mảng
 
 Mảng là một danh sách các phần tử, được tổ chức liên tiếp nhau trên bộ nhớ. Mảng là một cấu trúc dữ liệu đơn giản nhất và rất hiệu quả. Giả sử bạn cần một đoạn mã để tính giá trị trung bình của một vài con số. Mảng là sự lựa chọn tuyệt vời để giữ các giá trị bởi yêu cầu bài toán không đòi hỏi một thứ tự lưu trữ cụ thể và các phép tính toán cũng không đòi hỏi gì khác ngoài việc duyệt qua toàn bộ các phần tử.
@@ -24,7 +29,7 @@ Chúng ta phải lường trước hai trường hợp như: 1 lớp chứa đ�
 
 Trong khi sử dụng Mảng động, chúng ta có thể khởi tạo 10^6 mảng động, mỗi mảng động tượng trưng cho một lớp, và tăng kích cỡ mỗi lớp lên khi thông tin của một học sinh được đọc vào. Điều này đảm bảo không gian bộ nhớ lớn nhất chúng ta sử dụng là 2*10^6.
 
-## Các cách sử dụng thông thường
+## Ứng dụng
 
 [Link Contest Practice Arrays 1D](https://codeforces.com/contests/289360)
 

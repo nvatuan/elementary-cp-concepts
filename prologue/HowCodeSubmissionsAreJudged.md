@@ -1,4 +1,4 @@
-[Về trang chính](../../index.md)
+[<< Về trang chính](../index.md)
 
 # Cách thức mà bài Code được chấm điểm
 

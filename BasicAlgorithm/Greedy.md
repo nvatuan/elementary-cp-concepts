@@ -9,7 +9,7 @@
     * [2. Tổng lớn nhất của một chuỗi số](#2-tổng-lớn-nhất-của-một-chuỗi-số)
     * [3. Đổi tiền](#3-đổi-tiền)
     * [4. Sắp xếp công việc](#4-sắp-xếp-công-việc)
-* [Ứng dụng](#ứng-dụng)
+* [Ứng dụng + Link contest và lời giải](#ứng-dụng)
 
 
 ## Mở đầu

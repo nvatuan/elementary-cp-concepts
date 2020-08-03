@@ -1,4 +1,4 @@
-[Về trang chính](../../index.md)
+[<< Về trang chính](../../index.md)
 
 # List lời giải cho Arrays 2D
 
