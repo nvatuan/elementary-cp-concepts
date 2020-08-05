@@ -38,7 +38,7 @@ int ans = 0;
 void process() {
     sort(jobs, jobs + n, finishFirst);
 
-    int lastFinish = -1;
+    long long lastFinish = -1;
     ans = 0;
     for (int i = 0; i < n; i++) {
         if (lastFinish <= jobs[i].start) {
