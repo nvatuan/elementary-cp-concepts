@@ -45,7 +45,7 @@ Bây giờ chúng ta xem xét một bài toán hơi khác so với bài toán tr
 
 > Phong muốn múc `L` lít nước ra những cái gàu nước, biết rằng Phong có một số lượng gàu và mỗi gàu có thể chứa được một lượng nước riêng biệt. Nếu như với `N` gàu đó anh có thể múc được hết thì Số lượng gàu tối thiểu mà anh ta phải dùng là bao nhiêu?
 
-> Ví dụ: `L = 6` và `gàu = {3, 1, 3, 4, 1}`. Có thể chọn `{4, 1, 1}` để có thể múc được là `6` nhưng như vậy là 3 gàu. Chọn `{3, 3}` sẽ tối ưu hơn.
+> Ví dụ: `L = 6` và `gàu = {3, 1, 3, 4, 1}`. Có thể chọn `{4, 1, 1}` để có thể múc được nhưng như vậy là 3 gàu. Chọn `{3, 3}` hay `{4, 3}` sẽ tối ưu hơn.
 
 Cũng với Tiêu chí Tham lam _chọn gàu với Lượng nước chứa được lớn nhất_, nếu vẫn còn dư nước thì chúng ta sẽ liên tục chọn gàu to nhất có thể và múc. Hành động **luôn chọn gàu to nhất có thể** ở đây chính là định nghĩa của Giải thuật Tham lam, và việc này sẽ cho kết quả tối ưu bởi vì như trên đã nói, nếu ta chỉ quan tâm số lượng thì ta nên lấy cái mà làm được nhiều hơn cái còn lại.
 

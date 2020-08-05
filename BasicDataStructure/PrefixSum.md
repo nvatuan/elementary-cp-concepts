@@ -8,7 +8,7 @@
     * [Công dụng](#công-dụng)
     * [Lưu ý](#lưu-ý)
     * [Cách xây dựng](#cách-xây-dựng)
-    * [Nâng cao](#nâng-cao)
+    * [Hàm ngược của hàm](#hàm-ngược-của-hàm)
 * [Ứng dụng](#ứng-dụng)
 
 
@@ -77,7 +77,7 @@ prefixSum[0] = 0;
 for (int i = 1; i <= 100; i++) prefixSum[i] = prefixSum[i-1] + A[i];
 ```
 
-### Nâng cao
+### Hàm ngược của hàm
 Tuy tên nó là Tổng cộng dồn (hay Tổng tiền tố, Prefix Sum), nhưng chúng ta vẫn có thể sử dụng mô hình này để tính giả dụ như Tích tiền tố hay Hiệu tiền tố,... hay bất kỳ phép toán nào mà có hàm ngược lại của nó. Như phép + và phép - là hai phép toán Ngược nhau. Bởi vì:
 
     a + b = c <=> c - b = a
@@ -91,7 +91,7 @@ Phép toán mũ là phép toán có hàm ngược lại, đó là Phép toán c�
     x^2 = y <=> căn_bậc_2(y) = x
     x^a = y <=> căn_bậc_a(y) = x
 
-Tuy nhiên, phép toán tìm min, max, gcd của hai số không có hàm ngược lại. Tuy nhiên, chúng ta vẫn có thể cài đặt Prefix Sum của chúng ta sử dụng bất kỳ phép toán nào nếu như ta không cần phải truy vấn mảng con mà là truy vấn mảng tiền tố hoặc mảng hậu tố.
+Phép toán tìm min, max, gcd của hai số không có hàm ngược lại. Tuy nhiên, chúng ta vẫn có thể cài đặt Prefix Sum của chúng ta sử dụng bất kỳ phép toán nào nếu như ta không cần phải truy vấn mảng con mà là truy vấn mảng tiền tố hoặc mảng hậu tố.
 
     A[]         = 5 7 3 6 9 1 2
     prefixMin[] = 5 5 3 3 3 1 1
