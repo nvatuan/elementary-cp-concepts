@@ -4,8 +4,8 @@
 
 ## Hint giải
 Hãy trả lời những câu hỏi sau:
-1. Nếu như chỉ có `N = 1` thì `M` phải như thế nào so với đoạn `[L1, R1]` mới là có thể?
-2. Nếu như `N > 1` thì có cách nào chuyển nó về thành `N` đoạn `[Li, Ri]` thành một đoạn thôi không?
+1. Nếu như chỉ có `N = 1` thì `M` phải như thế nào so với đoạn `[L1, R1]` thì mới là có thể?
+2. Nếu như `N > 1` thì có cách nào chuyển `N` đoạn `[Li, Ri]` thành một đoạn thôi không?
 3. Sau một số ngày thì Thu nhập ít nhất và nhiều nhất cửa hàng nọ thu về được là bao nhiêu?
 
 ## Lời giải

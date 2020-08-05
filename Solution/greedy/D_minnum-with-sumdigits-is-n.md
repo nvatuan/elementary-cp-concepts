@@ -3,9 +3,9 @@
 [Về Index](index.md)
 
 ## Hint giải
-Yêu cầu của bài toán là phải in ra một số nguyên sao cho số đó là nhỏ nhất và tổng các chữ số của nó bằng `N`. Chúng ta cũng có thể bài này về một dạng mà chúng ta đã nói đến là bài [Gàu nước](../../BasicAlgorithm/Greedy.md#1-gàu-nước). Chúng ta sẽ chuyển chúng như sau:
+Yêu cầu của bài toán là phải in ra một số nguyên sao cho số đó là nhỏ nhất và tổng các chữ số của nó bằng `N`. Chúng ta cũng có thể chuyển bài này về một dạng mà chúng ta đã nói đến là bài [Gàu nước](../../BasicAlgorithm/Greedy.md#1-gàu-nước). Chúng ta sẽ chuyển chúng như sau:
 
-> Có `N` lít nước vào 9 loại gàu, mỗi loại gàu có thể chứa được `{1, 2, 3, 4, 5, 6, 7, 8, 9}` lít nước. Số gàu ít nhất mà bạn cần để múc chính xác `N` lít này là bao nhiêu?
+> Có `N` lít nước và 9 loại gàu, mỗi loại gàu có thể chứa được `{1, 2, 3, 4, 5, 6, 7, 8, 9}` lít nước. Số gàu ít nhất mà bạn cần để múc chính xác `N` lít này là bao nhiêu?
 
 Lúc này bạn có thể sử dụng Tiêu chí tham lam giống như ở bài Gàu nước, nhưng điều này chỉ đảm bảo là số gàu nước hay số lượng chữ số của đáp án của ta là ít nhất. Bạn phải làm một vài sửa đổi để nó trở thành số nhỏ nhất. Tiêu đề của đề bài cũng là một gợi ý cho bạn.
 
