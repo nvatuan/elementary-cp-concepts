@@ -12,8 +12,10 @@ Bài này chỉ là bài trước nó: [Minimal Coverage](I_minimal-coverage.md)
     <img src = 'watering-grass-solution.png'>
     </p>
 
-Ta sẽ tính `dx` sử dụng công thức Pythagoras với cạnh huyền là `R` và một cạnh đáy là `w/2`. Sau đó, chuyển đường tròn thành một đoạn thẳng `[x-dx, x+dx]`. Từ đó, ta có bài toán y chang như `Minimal Coverage`.
+Ta sẽ tính <code>dx</code> sử dụng công thức Pythagoras với cạnh huyền là <code>R</code> và một cạnh đáy là <code>w/2</code>. Sau đó, chuyển đường tròn thành một đoạn thẳng <code>[x-dx, x+dx]</code>. Từ đó, ta có bài toán y chang như <strong>Minimal Coverage</strong>.
+
 </details>
+<br />
 
 ## Code giải
 ```cpp
