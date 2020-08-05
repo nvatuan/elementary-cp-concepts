@@ -1,4 +1,4 @@
-# Greedy - H - Tối thiểu hóa Chênh lệch
+# Greedy - G - Tối thiểu hóa Chênh lệch
 
 [Về Index](index.md)
 

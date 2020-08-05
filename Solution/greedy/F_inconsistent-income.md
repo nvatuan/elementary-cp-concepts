@@ -1,4 +1,4 @@
-# Greedy - G - Thu nhập thất thường
+# Greedy - F - Thu nhập thất thường
 
 [Về Index](index.md)
 
