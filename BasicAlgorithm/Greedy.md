@@ -22,7 +22,7 @@ Giả sử như bạn đang rãnh rỗi và muốn làm việc bán thời gian,
 1. Cấu trúc con tối ưu
 2. Tính chất lựa chọn tham lam (khó chứng minh)
 
-Bài viết chỉ có mục đích cho bạn làm quen với tư duy Tham lam và giới thiệu các dạng bài toán Tham lam kinh điển, bi sâu vào hai tính chất trên sẽ khiến bài viết khó tiếp cận.
+Bài viết chỉ có mục đích cho bạn làm quen với tư duy Tham lam và giới thiệu các dạng bài toán Tham lam kinh điển, đi sâu vào hai tính chất trên sẽ khiến bài viết khó tiếp cận với người mới.
 
 
 ## Ví dụ
