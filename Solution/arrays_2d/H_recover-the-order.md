@@ -17,6 +17,7 @@ Với Nhận xét 2, khôi phục Trật tự sẽ rất dễ dàng, bạn chỉ
 
 Xét chuỗi `4 > 3 > 2 > 1`, bạn có thể thẩy số `4` lớn hơn 3 phần tử, số `3` lớn hơn 2 phần tử, số `2` lớn hơn 1 phần tử và số `1` lớn hơn 0 phần tử.
 
+Bài toán cũng có thể giải được ở độ phức tạp `O(N^3)` với thuật toán Floyd-Warshall.
 
 ## Code nguồn
 
@@ -41,9 +42,8 @@ int main() {
     }
 
     for (int round = 0; round < n; round++) {
-        // -- modified floyd-warshall
         // a > b and b > c => a > c
-        // this goes on for n rounds to make sure all Greater[i][j]s are found
+        // chạy round n lần để tìm ra tất cả cặp Greater[i][j]
         for (int a = 0; a < n; a++)
         for (int b = 0; b < n; b++)
             if (Greater[a][b])
