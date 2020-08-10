@@ -9,7 +9,7 @@
     * [Lưu ý](#lưu-ý)
     * [Cách xây dựng](#cách-xây-dựng)
     * [Hàm ngược của hàm](#hàm-ngược-của-hàm)
-* [Ứng dụng](#ứng-dụng)
+* [Link Contest và Hướng dẫn giải](#link-contest-và-hướng-dẫn-giải)
 
 
 ## Lý thuyết
@@ -99,4 +99,6 @@ Phép toán tìm min, max, gcd của hai số không có hàm ngược lại. Tu
     Min của A[0], A[1], ... A[R] = prefixMin[R]
 
 
-## Ứng dụng
+## Link Contest và Hướng dẫn giải
+[Link Contest Prefix Sum](https://codeforces.com/contests/289716)
+- [Link hướng dẫn giải cho contest Prefix Sum](../Solution/prefix_sum/index.md)

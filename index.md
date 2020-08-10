@@ -13,7 +13,7 @@ Các nội dung đã được mình cố gắng tách biệt để chúng độc
 
 ### Cơ bản về Data Structure:
 1. [Arrays (Mảng) (☆)](BasicDataStructure/Arrays.md) (Xong + 2 Contest)
-2. [Prefix Sum (Tổng cộng dồn) (☆☆)](BasicDataStructure/PrefixSum.md) (Xong + CHƯA CÓ CONTEST)
+2. [Prefix Sum (Tổng cộng dồn) (☆☆)](BasicDataStructure/PrefixSum.md) (Xong + 1 Contest)
 3. [(ỨNG DỤNG THƯ VIỆN) Cấu trúc Dữ liệu truy vấn (cho phép lấy Max/Min nhanh) (☆☆☆)](BasicDataStructure/FastMinMaxSingleElementQuery.md) (CHƯA XONG)
 
 
