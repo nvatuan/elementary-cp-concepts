@@ -12,7 +12,7 @@ Khai báo một mảng `diemDanh[]` và sử dụng chỉ số `i` như là mã 
 
 Ban đầu, mảng `diemDanh[]` của chúng ta sẽ chứa toàn giá trị `false`, vì lớp học vừa mở cửa và không có ai trong đó cả. Sau đó, chúng ta sẽ lần lượt cho từng học sinh vào và đánh dấu là học sinh đó có mặt. Sau đó chỉ cần duyệt qua tất cả mã số học sinh, in ra các mã số học sinh mà có `diemDanh[i] == false`.
 
-Giả sử như lớp chúng ta chỉ có 10 hoạc sinh và có các học sinh như sau đi học 11, 14, 15. Gán `diemDanh[3] = true, diemDanh[4] = true, diemDanh[7] = true;`. Sau đó, chúng ta duyệt lần lượt mã số học sinh từ 1 cho đến 10, nếu `diemDanh[mã_số_học_sinh] == false` tức là học sinh đó không có mặt.
+Giả sử như lớp chúng ta chỉ có 10 hoạc sinh và có các học sinh như sau đi học 3, 4, 7. Gán `diemDanh[3] = true, diemDanh[4] = true, diemDanh[7] = true;`. Sau đó, chúng ta duyệt lần lượt mã số học sinh từ 1 cho đến 10, nếu `diemDanh[mã_số_học_sinh] == false` tức là học sinh đó không có mặt.
 
 
 ## Code nguồn
